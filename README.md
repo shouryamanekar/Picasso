@@ -3,8 +3,6 @@
 
 TextArtify is an open-source artificial intelligence project designed to generate images from natural language text descriptions. With TextArtify, users can express their ideas using text, and the AI system transforms those words into visual art.
 
-![TextArtify Demo](link-to-demo-gif-or-image.gif)
-
 ## Features
 
 - Generate images from textual descriptions.
