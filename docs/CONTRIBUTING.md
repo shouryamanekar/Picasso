@@ -11,7 +11,7 @@ Before contributing, please read and adhere to our [Code of Conduct](docs/CODE_O
 
 1. Fork the Repository: Click the "Fork" button at the top right of the [TextArtify repository](https://github.com/shouryamanekar/TextArtify) on GitHub. This creates a copy of the project in your GitHub account.
 
-2. Clone Your Fork: Clone your forked repository to your local machine using `git clone`. Replace `your-username` with your GitHub username:
+2. Clone Your Fork: Clone your forked repository to your local machine using `git clone`.
    ```bash
    git clone https://github.com/shouryamanekar/TextArtify.git
    cd TextArtify
@@ -56,7 +56,7 @@ You can also contribute by:
 
 ## Licensing
 
-By contributing to TextArtify, you agree that your contributions will be licensed under the project's [MIT License](LICENSE).
+By contributing to TextArtify, you agree that your contributions will be licensed under the project's [MIT License](docs/LICENSE).
 
 Thank you for contributing to TextArtify and helping make it even better!
 
