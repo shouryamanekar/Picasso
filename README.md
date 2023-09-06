@@ -66,7 +66,7 @@ We welcome contributions from the community. If you'd like to contribute to Text
 
 ## License
 
-TextArtify is released under the [MIT License](LICENSE).
+TextArtify is released under the [MIT License](docs/LICENSE).
 
 ## Acknowledgments
 
