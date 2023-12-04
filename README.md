@@ -1,7 +1,7 @@
 
 # Picasso
 
-Picasso is an open-source artificial intelligence project designed to generate images from natural language text descriptions. With TextArtify, users can express their ideas using text, and the AI system transforms those words into visual art.
+Picasso is an open-source artificial intelligence project that generates images from natural language text descriptions. With Picasso, users can express their ideas using text, and the AI system transforms those words into visual art.
 
 ## Features
 
@@ -10,8 +10,11 @@ Picasso is an open-source artificial intelligence project designed to generate i
 - User-friendly interface for easy interaction.
 - [Optional] Advanced customization and style options.
 
+## Requirements
 
-
+1. Google account
+2. Drive Storage: Min. 10GB
+3. Ngrok authtoken
 
 ## Installation
 
@@ -26,12 +29,18 @@ COLLAB
    SD 2:  https://drive.google.com/file/d/1DUxAxG3Q4qEGjiuXXy7TUT0fB92U4x3Y/view?usp=drive_link
    ```
    
-4. Run the the "Server.ipynb" file in Google Collab
-5. Changed the runtime to GPU
-6. Click to Run All
-7. Scroll Down to the end
-8. Running on "Click on this link"
-
+4. Replace auth token:
+   ```
+   !./ngrok authtoken "your authtoken"
+   ```
+6. Run the the "Server.ipynb" file in Google Collab
+8. Changed the runtime to GPU
+9. Click to Run All
+10. Scroll Down to the end
+11. Click on the Link
+    ```
+    * Running on "Click on this link"
+    ```
 
 
 ANDROID
@@ -82,21 +91,30 @@ TextArtify uses Firebase for authentication and backend services. To configure F
    );
    ```
 
+## Screenshots
+
+![image](https://github.com/shouryamanekar/Picasso/assets/72398499/f45493ed-f0f0-4b73-8502-5d76cf769423)
+
+![image](https://github.com/shouryamanekar/Picasso/assets/72398499/73bc04b9-6811-47f6-b052-78fe35dede2b)
+
+
+
+
 ## Contributing
 
-We welcome contributions from the community. If you'd like to contribute to TextArtify, please follow our [Contributing Guidelines](CONTRIBUTING.md).
+We welcome contributions from the community. If you'd like to contribute to Picasso, please follow our [Contributing Guidelines](CONTRIBUTING.md).
 
 ## License
 
-TextArtify is released under the [MIT License](docs/LICENSE).
+Picasso is released under the [MIT License](docs/LICENSE).
 
 ## Acknowledgments
 
-- We would like to thank the open-source community and the contributors for making this project possible.
+- We thank the open-source community and the contributors for making this project possible.
 - Special thanks to [Stable Diffusion](https://github.com/stable-diffusion) for the core text-to-image generation technology.
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact us at [speedk143.dev@gmail.com](mailto:speedk143.dev@gmail.com).
+If you have any questions or suggestions, please contact us at [speedk143.dev@gmail.com](mailto:speedk143.dev@gmail.com).
 
 ---
