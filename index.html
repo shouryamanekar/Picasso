@@ -1,0 +1,45 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Generator</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="static/styles.css"> <!-- Link to external CSS file -->
+
+</head>
+<body>
+    <div class="header">
+        <h4>Bit-Assist AI</h4>
+    </div>
+
+    <div class="generator-container">
+        <div class="form-container">
+            <input type="text" class="form-control" id="prompt" placeholder="Describe what you want to see" />
+            <select class="form-control mt-2" id="model-select">
+                <option value="1">SD 1.5</option>
+                <option value="2">SD 2</option>
+                <option value="3" disabled>SD 2.1 (Not Enough Computational Power)</option>
+                <option value="4" disabled>SD 2.1 base (Not Enough Computational Power)</option>
+                <option value="5" disabled>SD XL 0.9 base (Not Enough Computational Power)</option>
+                <option value="6" disabled>SD XL 1.0 base (Not Enough Computational Power)</option>
+            </select>
+            <button class="btn btn-primary mt-2 generate-btn">Generate</button>
+        </div>
+        <div id="loading" style="display:none;">Generating image...</div>
+        <div class="image-gallery">
+            <img id="image" class="img-fluid mt-3" style="display:none;" />
+        </div>
+        <div id="error" style="display:none;">Image not generated, please try again.</div>
+        <a id="download-link" style="display: none;">Download Image</a>
+    </div>
+
+    <div class="footer">
+        <p>© 2023 Bit-Assist AI</p>
+    </div>
+    <script src="static/script.js"></script>
+
+</body>
+</html>
