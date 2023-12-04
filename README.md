@@ -1,4 +1,4 @@
-```markdown
+
 # Picasso
 
 Picasso is an open-source artificial intelligence project designed to generate images from natural language text descriptions. With TextArtify, users can express their ideas using text, and the AI system transforms those words into visual art.
@@ -10,18 +10,42 @@ Picasso is an open-source artificial intelligence project designed to generate i
 - User-friendly interface for easy interaction.
 - [Optional] Advanced customization and style options.
 
+
+
+
 ## Installation
+
+COLLAB
+1. Download all the files
+
+2. Create a Folder named "Models" and Upload all the files to that folder
+
+3. Now add these two files to that folder:
+   ```
+   SD 1.5: https://drive.google.com/file/d/1dm7eFjXb5S1WSMoyr8bVEZv3WWdos4Ru/view?usp=drive_link
+   SD 2:  https://drive.google.com/file/d/1DUxAxG3Q4qEGjiuXXy7TUT0fB92U4x3Y/view?usp=drive_link
+   ```
+   
+4. Run the the "Server.ipynb" file in Google Collab
+5. Changed the runtime to GPU
+6. Click to Run All
+7. Scroll Down to the end
+8. Running on "Click on this link"
+
+
+
+ANDROID
 
 To get started with Picasso, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/shouryamanekar/TextArtify.git
+   git clone https://github.com/shouryamanekar/Picasso.git
    ```
 
 2. Install project dependencies:
    ```bash
-   cd TextArtify
+   cd Picasso
    flutter pub get
    ```
 
