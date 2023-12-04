@@ -1,0 +1,71 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: auto; /* Makes the page scrollable */
+    background-image: linear-gradient(to right top, #760e49, #78185e, #762473, #6c328a, #5a40a0, #4951af, #3260bc, #006fc6, #0081c7, #008fbd, #009bad, #09a49c);
+    /* background: url('path_to_your_background_image.jpg') no-repeat center center fixed; */
+    background-size: cover;
+}
+
+
+
+
+/* Add the rest of your CSS styles here */
+.header {
+    background-color: rgba(34, 97, 126, 0.438);
+    color: white;
+    padding: 1px 0;
+    text-align: center;
+}
+
+
+
+.generator-container {
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.form-container {
+    margin: 20px;
+    height: 200px;
+}
+.generate-btn {
+    transition: transform 0.2s ease;
+    margin: 50px;
+    padding: 10px 20px;
+}
+.generate-btn:hover {
+    transform: scale(1.1);
+    color: black;
+    box-shadow: 3px 5px 10px ;
+}
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+}
+.image-gallery img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+
+
+
+
+.footer {
+    background-color: rgba(218, 109, 194, 0.418);
+    color: white;
+    text-align: center;
+    /* justify-items: center; */
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+}
