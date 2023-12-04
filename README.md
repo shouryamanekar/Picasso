@@ -1,7 +1,7 @@
 ```markdown
-# TextArtify
+# Picasso
 
-TextArtify is an open-source artificial intelligence project designed to generate images from natural language text descriptions. With TextArtify, users can express their ideas using text, and the AI system transforms those words into visual art.
+Picasso is an open-source artificial intelligence project designed to generate images from natural language text descriptions. With TextArtify, users can express their ideas using text, and the AI system transforms those words into visual art.
 
 ## Features
 
@@ -12,7 +12,7 @@ TextArtify is an open-source artificial intelligence project designed to generat
 
 ## Installation
 
-To get started with TextArtify, follow these steps:
+To get started with Picasso, follow these steps:
 
 1. Clone the repository:
    ```bash
@@ -32,7 +32,7 @@ To get started with TextArtify, follow these steps:
 
 ## Usage
 
-1. Launch the TextArtify app.
+1. Launch the Picasso app.
 2. Enter a descriptive text in the input field.
 3. Press the "Generate" button to create an image based on your description.
 4. Explore the artistic interpretations and share or save the generated images.
