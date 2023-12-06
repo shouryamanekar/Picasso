@@ -45,23 +45,8 @@ COLLAB
 
 ANDROID
 
-To get started with Picasso, follow these steps:
+To get started with Picasso App, visit the following link: https://github.com/shouryamanekar/PicassoApp.git
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/shouryamanekar/Picasso.git
-   ```
-
-2. Install project dependencies:
-   ```bash
-   cd Picasso
-   flutter pub get
-   ```
-
-3. Run the application:
-   ```bash
-   flutter run
-   ```
 
 ## Usage
 
