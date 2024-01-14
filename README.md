@@ -3,6 +3,9 @@
 
 Picasso is an open-source artificial intelligence project that generates images from natural language text descriptions. With Picasso, users can express their ideas using text, and the AI system transforms those words into visual art.
 
+![Picasso Logo](https://github.com/shouryamanekar/Picasso/assets/72398499/fdcbc682-3f64-4398-80c4-4fe1c8537cb3)
+
+
 ## Features
 
 - Generate images from textual descriptions.
