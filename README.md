@@ -46,11 +46,6 @@ COLLAB
     ```
 
 
-ANDROID
-
-To get started with Picasso App, visit the following link: https://github.com/shouryamanekar/PicassoApp.git
-
-
 ## Usage
 
 1. Launch the Picasso app.
